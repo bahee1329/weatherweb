@@ -1,0 +1,44 @@
+.container1{
+    background-color: rgb(27, 26, 26);
+    margin-top: 30px;
+    margin-left: 240px;
+    margin-right: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: azure;
+    border-radius: 50px;
+}
+
+.leftp{
+    padding-left: 30px;
+}
+
+.rightp{
+  padding-right: 30px;
+ 
+}
+.rightp h1 {
+    font-size: 36px;
+}
+
+
+.container1:hover{
+    background-color:white;
+    color: black;
+
+}
+
+@media (max-width: 1024px) {
+    
+    
+    .container1{
+        
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+}

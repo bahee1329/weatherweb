@@ -1,0 +1,64 @@
+.dayscon{
+    background-color: rgb(215, 212, 212);
+    opacity: .8;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 20px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+.dayscon h1{
+    margin-left: 420px;
+    color: black;
+}
+
+.button1{
+    margin-left: 440px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(23, 23, 23);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 1024px) {
+    .dayscon{
+        
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    
+    }
+    
+    .dayscon h1{
+        margin-left: 180px;
+    }
+    
+    .button1{
+        margin-left: 180px;
+        padding-left: 10px;
+        
+    }
+    
+    
+   
+    
+}
